@@ -324,9 +324,6 @@ body.hide {
 }
 
 @media screen and (max-width: 1500px) {
-  .hero-img {
-    height: 50vh;
-  }
   .fashion-text h1 {
     font-size: 2rem;
     padding: 1rem 0rem;
