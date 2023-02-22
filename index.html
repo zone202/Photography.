@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat&family=Poppins:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <title>Photography Website</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body data-barba="wrapper">
+    <header class="nav-header">
+      <h1><a href="./index.html" id="logo">Photography.</a></h1>
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+      </div>
+    </header>
+
+    <main data-barba="container" data-barba-namespace="home">
+      <section class="moutain slide">
+        <div class="hero-img">
+          <img src="./img/forest.png" alt="" />
+          <div class="reveal-img"></div>
+        </div>
+        <div class="hero-desc">
+          <div class="title">
+            <h2>
+              Start with just <span class="mountain-span">one picture.</span>
+            </h2>
+            <div class="title-swipe t-swipe1"></div>
+          </div>
+          <p>
+            Photography is an amazing way to capture stunning scenes and great pictures. It is a wonderful way to capture memories and create art, and it can be a very rewarding hobby or profession. With the right equipment and techniques, anyone can take beautiful photographs of nature, people, and other subjects. Photography can be used to document important events, tell stories, or simply show off a beautiful landscape. It is a skill that can be developed with practice, and the results can be truly amazing.
+          </p>
+          <button class="explore mountain-exp">Explore</button>
+          <div class="reveal-text"></div>
+        </div>
+      </section>
+
+      <section class="hike slide">
+        <div class="hero-img">
+          <img src="./img/hike.png" alt="" />
+          <div class="reveal-img"></div>
+        </div>
+        <div class="hero-desc">
+          <div class="title">
+            <h2>Best place to get <span class="hike-span"> photos.</span></h2>
+            <div class="title-swipe t-swipe2"></div>
+          </div>
+          <p>
+            We are photography business that offers customers a wide variety of high quality photos that can be downloaded for free and delivered the same day. The photos are perfect for personal and commercial use and come in a variety of sizes and styles to fit any need. With a quick and easy ordering process, customers can have their photos delivered to their door without having to wait days or weeks for delivery.
+          </p>
+          <button class="explore hike-exp">Explore</button>
+          <div class="reveal-text"></div>
+        </div>
+      </section>
+
+      <section class="fashion slide">
+        <div class="hero-img">
+          <img src="./img/fashion.png" alt="" />
+          <div class="reveal-img"></div>
+        </div>
+        <div class="hero-desc">
+          <div class="title">
+            <h2>
+              Never stopping to <span class="fashion-span"> take pictures.</span>
+            </h2>
+            <div class="title-swipe t-swipe3"></div>
+          </div>
+          <p>
+            Photography is a great way to capture moments, create memories and document experiences. Whether you're a professional photographer or a hobbyist, taking pictures of anything and everything can be a great way to express yourself. From models, businesses, artists, landscapes and more, photography can be used to tell stories, create beautiful art and document special moments. With the right equipment and a creative eye, you can capture stunning images of whatever you desire.
+          </p>
+          <a href="./fashion/index.html" class="explore fashion-exp">Explore</a>
+          <div class="reveal-text"></div>
+        </div>
+      </section>
+    </main>
+    <nav class="nav-bar">
+      <ul class="nav-links">
+        <a href="/">Twitter</a>
+        <a href="/">Youtube</a>
+        <a href="/">Instagram</a>
+      </ul>
+      <div class="contact">
+        <h2>Stay in touch.</h2>
+        <p>
+          At Photography, we are dedicated to providing high-quality photography services to our clients. We specialize in portrait, wedding, and commercial photography, and strive to capture beautiful memories for our clients. We are always open to working with new photographers or anyone interested in collaborating with us, so please don't hesitate to contact us.
+        </p>
+      </div>
+    </nav>
+
+    <div class="cursor">
+      <span class="cursor-text"></span>
+    </div>
+
+    <div class="swipe swipe1"></div>
+    <div class="swipe swipe2"></div>
+    <div class="swipe swipe3"></div>
+
+    <script src="https://unpkg.com/@barba/core"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js"
+      integrity="sha512-8E3KZoPoZCD+1dgfqhPbejQBnQfBXe8FuwL4z/c8sTrgeDMFEnoyTlH3obB4/fV+6Sg0a0XF+L/6xS4Xx1fUEg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/plugins/debug.addIndicators.min.js"
+      integrity="sha512-RvUydNGlqYJapy0t4AH8hDv/It+zKsv4wOQGb+iOnEfa6NnF2fzjXgRy+FDjSpMfC3sjokNUzsfYZaZ8QAwIxg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/plugins/animation.gsap.min.js"
+      integrity="sha512-5/OHwmQzDSBS0Ous4/hlYoWLHd06/d2r7LdKZQVBXOA6PvOqWVXtdboiLTU7lQTGyVoKVTNkwi0ol4gHGlw5ww=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"
+      integrity="sha512-f8mwTB+Bs8a5c46DEm7HQLcJuHMBaH/UFlcgyetMqqkvTcYg4g5VXsYR71b3qC82lZytjNYvBj2pf0VekA9/FQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
