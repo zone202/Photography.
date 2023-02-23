@@ -431,3 +431,15 @@ body.hide {
     height: 1000vh;
   }
 }
+
+@media screen and (max-width: 400px) {
+  .hero-desc p {
+    line-height: 1rem;
+  }
+  .hero-desc h2 {
+    font-size: 1.2rem;
+  }
+  .explore {
+    padding: 0.5rem 1rem;
+  }
+}
