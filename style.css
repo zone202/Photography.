@@ -241,6 +241,11 @@ body.hide {
   overflow: hidden;
 }
 
+.end {
+  font-size: 70px;
+  text-align: center;
+}
+
 /* Other Pages */
 
 .fashion1,
