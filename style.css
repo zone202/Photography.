@@ -78,7 +78,10 @@ main {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  margin-top: 50px;
+}
+
+.mont-img {
+  padding-top: 50px;
 }
 
 .fashion-span {
