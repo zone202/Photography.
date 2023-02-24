@@ -438,6 +438,10 @@ body.hide {
   .container {
     height: 1000vh;
   }
+
+  .end {
+    font-size: 30px;
+  }
 }
 
 @media screen and (max-width: 400px) {
